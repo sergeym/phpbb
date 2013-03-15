@@ -1,0 +1,23 @@
+{
+    "name": "sergeym/phpbb",
+    "description": "This package is an installer that will download phpBB from the http://phpbb.com website and unpack it at the root of your Composer project.",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Sergey Marin",
+            "email": "marin.sergey@gmail.com",
+            "homepage": "http://sergeymarin.com"
+        }
+    ],
+    "type": "archive-package",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "mouf/archive-installer": "~1.0"
+    },
+    "extra": {
+        "url": "https://www.phpbb.com/files/release/phpBB-3.0.11.zip",
+        "target-dir": ".",
+        "omit-first-directory": "true"
+    }
+}
